@@ -1,0 +1,84 @@
+/* plus-jakarta-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url("./assets/fonts/plus-jakarta-sans-v12-latin-regular.woff2")
+      format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      url("./assets/fonts/plus-jakarta-sans-v12-latin-regular.ttf")
+      format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* plus-jakarta-sans-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  src:
+    url("./assets/fonts/plus-jakarta-sans-v12-latin-500.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      url("./assets/fonts/plus-jakarta-sans-v12-latin-500.ttf")
+      format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* plus-jakarta-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  src:
+    url("./assets/fonts/plus-jakarta-sans-v12-latin-600.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      url("./assets/fonts/plus-jakarta-sans-v12-latin-600.ttf")
+      format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* plus-jakarta-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url("./assets/fonts/plus-jakarta-sans-v12-latin-700.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      url("./assets/fonts/plus-jakarta-sans-v12-latin-700.ttf")
+      format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+:root {
+  /* Colors */
+  --neutral-01: #ffffff;
+  --neutral-02: #e5eaec;
+  --neutral-03: #5b5955;
+  --neutral-04: #171206;
+  --theme-01: #2b80f7;
+  --theme-02: #febf03;
+  --theme-03: #f02a2b;
+  --line: #f2f7f9;
+  --bg: #f2f7f9;
+  --bg-02: #d9d9d9;
+  --link: #0099ff;
+
+  /* Fonts */
+  --fs-14: calc(14 / 16 * 1rem);
+  --fs-16: calc(16 / 16 * 1rem);
+  --fs-18: calc(18 / 16 * 1rem);
+  --fs-20: calc(20 / 16 * 1rem);
+  --fs-24: calc(24 / 16 * 1rem);
+  --fs-40: calc(40 / 16 * 1rem);
+  --fs-48: calc(48 / 16 * 1rem);
+  --fs-60: calc(60 / 16 * 1rem);
+  --fs-72: calc(72 / 16 * 1rem);
+
+  --text-family: "Plus Jakarta Sans", "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  font-family: var(--text-family);
+}
