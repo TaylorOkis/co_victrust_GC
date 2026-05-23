@@ -1,3 +1,12 @@
+/* anton-sc-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Anton SC";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/anton-sc-v1-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 /* plus-jakarta-sans-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -64,9 +73,13 @@
   --bg: #f2f7f9;
   --bg-02: #d9d9d9;
   --link: #0099ff;
+  --black: #000000;
 
   /* Fonts */
+  --fs-10: calc(7.72 / 16 * 1rem);
+  --fs-12: calc(12 / 16 * 1rem);
   --fs-14: calc(14 / 16 * 1rem);
+  --fs-15: calc(15 / 16 * 1rem);
   --fs-16: calc(16 / 16 * 1rem);
   --fs-18: calc(18 / 16 * 1rem);
   --fs-20: calc(20 / 16 * 1rem);
@@ -77,8 +90,241 @@
   --fs-72: calc(72 / 16 * 1rem);
 
   --text-family: "Plus Jakarta Sans", "Segoe UI", Roboto, sans-serif;
+
+  /* Sizes */
+  --md-screen: calc(600 / 16 * 1rem);
+  --lg-screen: calc(1000 / 16 * 1rem);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: var(--text-family);
+  font-size: var(--fs-16);
+  line-height: 1.33333;
+}
+
+h1 {
+  font-size: clamp(38px, calc(25.636px + 3.864vw), 72px);
+  line-height: 1.1;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.wrapper {
+  width: min(calc(100% - 40px), calc(1400 / 16 * 1rem));
+  margin-inline: auto;
+}
+
+.topnav {
+  background-color: var(--black);
+  backdrop-filter: blur(10px);
+  z-index: -10;
+  padding-block: 6px;
+  opacity: 0.9;
+
+  .topnav__wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .topnav__homelink {
+    display: flex;
+    color: var(--neutral-01);
+    align-items: center;
+    gap: 4px;
+
+    > span {
+      background-color: var(--neutral-01);
+      width: 3px;
+      height: 30px;
+    }
+  }
+
+  .topnav__logo-text {
+    display: grid;
+  }
+
+  .topnav__logo-text span {
+    display: inline-block;
+
+    &:nth-child(1) {
+      font-size: var(--fs-15);
+      font-family: "Anton SC";
+      color: var(--theme-01);
+    }
+
+    &:nth-child(2) {
+      font-size: var(--fs-10);
+      margin-block-start: -2.5px;
+    }
+  }
+
+  .topnav__ham-menu {
+    height: 31px;
+    width: 24px;
+    margin-left: auto;
+    position: relative;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    @media (width >= calc(1000 / 16 * 1rem)) {
+      display: none;
+    }
+  }
+
+  .topnav__ham-menu span {
+    height: 2px;
+    width: 24px;
+    background-color: var(--neutral-01);
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 200ms ease;
+
+    &:nth-child(1) {
+      top: 25%;
+    }
+
+    &:nth-child(3) {
+      top: 75%;
+    }
+  }
+
+  .topnav__ham-menu.active span {
+    &:nth-child(1) {
+      top: 50%;
+      width: 60%;
+      transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    &:nth-child(2) {
+      opacity: 0;
+    }
+
+    &:nth-child(3) {
+      top: 50%;
+      width: 60%;
+      transform: translate(-50%, -50%) rotate(-45deg);
+    }
+  }
+}
+
+.hero {
+  background: var(--black);
+  opacity: 0.88;
+  background-image: url("./assets/images/hero_bg_image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+  .hero__wrapper {
+    padding-block-start: calc(20px + 99px);
+    padding-block-end: 80px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero__title {
+    color: var(--neutral-01);
+    text-transform: capitalize;
+    margin-block-end: 16px;
+    max-width: 18ch;
+  }
+
+  .hero__description {
+    color: var(--neutral-01);
+    font-size: var(--fs-18);
+    margin-block-end: 32px;
+    max-width: 35ch;
+  }
+
+  .hero__button {
+    max-width: 300px;
+    padding: 4px;
+    height: 61px;
+    background-color: var(--theme-01);
+    border-radius: 12px;
+    position: relative;
+
+    &:hover {
+      cursor: pointer;
+
+      .hero__button-inside {
+        width: 100%;
+      }
+
+      .hero__button-text {
+        color: var(--neutral-04);
+      }
+    }
+  }
+
+  .hero__button-inside {
+    background-color: var(--neutral-01);
+    border-radius: 8px;
+    width: 52px;
+    height: 100%;
+    transition: width 400ms linear;
+  }
+
+  .hero__button-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .hero__button-text {
+    position: absolute;
+    top: 19px;
+    left: 63px;
+    font-weight: 600;
+    color: var(--neutral-01);
+    font-size: clamp(0.875rem, calc(-1.125rem + 10vw), 1rem);
+  }
+
+  .hero__button-inside,
+  .hero__button-text {
+    transition: 400ms linear;
+    transition-property: width, color;
+  }
+
+  .hero__linear--overlay {
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(
+      to right,
+      hsl(0 0% 0% / 92%) 40%,
+      hsl(0 0% 0% / 60%) 70%,
+      hsl(0 0% 0% / 0%) 100%
+    );
+    z-index: 1;
+  }
+
+  .hero__linear--blur-overlay {
+    position: absolute;
+    width: 71%;
+    height: 100%;
+    filter: blur(6px);
+    background-image: linear-gradient(271deg, transparent 75%, black 100%);
+    z-index: 1;
+  }
 }
