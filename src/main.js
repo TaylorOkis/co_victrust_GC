@@ -1,5 +1,6 @@
 import "./style.css";
 import PhoneIcon from "./assets/icons/Phone.svg";
+import { createIcons, Headset, ShieldCheck, Truck, Clock4 } from "lucide";
 
 document.querySelector("#app").innerHTML = `
 <header class="topnav">
@@ -38,7 +39,75 @@ document.querySelector("#app").innerHTML = `
       </div>
     </div>
   </section>
+
+  <section class="offer">
+    <div class="wrapper offer__wrapper">
+      <div class="offer__bg">
+
+        <div class="offer__item">
+          <div class="offer__logo-container">
+            <i data-lucide="clock-4" class="offer__logo"></i>
+          </div>
+          <div class="offer__description">
+            <div class="offer__description-title">5+ Years
+            </div>
+            <div class="offer__description-content">
+              Experience and expertise
+            </div>
+          </div>
+        </div>
+
+        <div class="offer__item">
+          <div class="offer__logo-container">
+            <i data-lucide="truck" class="offer__logo"></i>
+          </div>
+          <div class="offer__description">
+            <div class="offer__description-title">Fast Delivery
+            </div>
+            <div class="offer__description-content">
+              On-time delivery across region
+            </div>
+          </div>
+        </div>
+
+        <div class="offer__item">
+          <div class="offer__logo-container">
+            <i data-lucide="shield-check" class="offer__logo"></i>
+          </div>
+          <div class="offer__description">
+            <div class="offer__description-title">Premium Quality
+            </div>
+            <div class="offer__description-content">
+              Only trusted brands and materials
+            </div>
+          </div>
+        </div>
+
+        <div class="offer__item">
+          <div class="offer__logo-container">
+            <i data-lucide="headset" class="offer__logo"></i>
+          </div>
+          <div class="offer__description">
+            <div class="offer__description-title">Expert Support
+            </div>
+            <div class="offer__description-content">
+              We help you choose the right product
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 
 <footer>This is the Footer</footer>
 `;
+
+createIcons({
+  icons: {
+    Headset,
+    ShieldCheck,
+    Truck,
+    Clock4,
+  },
+});
