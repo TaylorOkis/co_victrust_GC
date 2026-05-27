@@ -29,7 +29,6 @@ document.querySelector("#app").innerHTML = `
   <section class="hero">
     <div class="hero__linear--overlay"></div>
     <div class="hero__linear--blur-overlay"></div>
-    <div class="hero__blue-overlay"></div>
     <div class="wrapper hero__wrapper">
       <h1 class="hero__title">Reliable Plumbing & Building Supplies for Every Project</h1>
       <p class="hero__description">A trusted supplier of quality plumbing and building materials, helping homeowners and professionals complete projects safely, efficiently, and with lasting results.</p>
