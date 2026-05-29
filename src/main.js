@@ -1,7 +1,14 @@
 import "./style.css";
 import PhoneIcon from "./assets/icons/Phone.svg";
 import PipeImage from "./assets/images/pipes.png";
-import { createIcons, Headset, ShieldCheck, Truck, Clock4 } from "lucide";
+import {
+  createIcons,
+  Headset,
+  ShieldCheck,
+  Truck,
+  Clock4,
+  Boxes,
+} from "lucide";
 
 document.querySelector("#app").innerHTML = `
 <header class="topnav">
@@ -117,50 +124,77 @@ document.querySelector("#app").innerHTML = `
         <div class="category__card">
           <img src="${PipeImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
           <div class="category__card-overlay"></div>
-          <span class="category__card-name">Pipes &</span>
-          <span class="category__card-sub">Fittings</span>
+          <span class="category__card-name">Bathroom</span>
+          <span class="category__card-sub">Fixtures</span>
         </div>
 
         <div class="category__card">
           <img src="${PipeImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
           <div class="category__card-overlay"></div>
-          <span class="category__card-name">Pipes &</span>
-          <span class="category__card-sub">Fittings</span>
+          <span class="category__card-name">Sanitary</span>
+          <span class="category__card-sub">Wares</span>
         </div>
 
         <div class="category__card">
           <img src="${PipeImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
           <div class="category__card-overlay"></div>
-          <span class="category__card-name">Pipes &</span>
-          <span class="category__card-sub">Fittings</span>
+          <span class="category__card-name">Valves &</span>
+          <span class="category__card-sub">Connectors</span>
         </div>
 
         <div class="category__card">
           <img src="${PipeImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
           <div class="category__card-overlay"></div>
-          <span class="category__card-name">Pipes &</span>
-          <span class="category__card-sub">Fittings</span>
+          <span class="category__card-name">Water</span>
+          <span class="category__card-sub">Pumps</span>
         </div>
 
         <div class="category__card">
           <img src="${PipeImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
           <div class="category__card-overlay"></div>
-          <span class="category__card-name">Pipes &</span>
-          <span class="category__card-sub">Fittings</span>
+          <span class="category__card-name">Plumbing</span>
+          <span class="category__card-sub">Chemicals</span>
         </div>
 
         <div class="category__card">
           <img src="${PipeImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
           <div class="category__card-overlay"></div>
-          <span class="category__card-name">Pipes &</span>
-          <span class="category__card-sub">Fittings</span>
+          <span class="category__card-name">Hoses &</span>
+          <span class="category__card-sub">Pipes</span>
         </div>
 
         <div class="category__card">
           <img src="${PipeImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
           <div class="category__card-overlay"></div>
-          <span class="category__card-name">Pipes &</span>
-          <span class="category__card-sub">Fittings</span>
+          <span class="category__card-name">Tools &</span>
+          <span class="category__card-sub">Accessories</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="trust">
+    <div class="wrapper trust__wrapper">
+      <div class="trust__description">
+        <span>Why choose us</span>
+        <h4>Built on quality. Focused on you.</h4>
+        <p>We provide reliable plumbing supplies and excellent service for your needs.</p>
+      </div>
+      <div class="trust__items">
+        <div class="trust__item">
+          <div class="trust__item-logo-container">
+            <i data-lucide="shield-check" class="trust__item-logo"></i>
+          </div>
+          <span class="trust__item-title">Premium Materials</span>
+          <span class="trust__item-description">Durable, long-lasting products you can trust.</span>
+        </div>
+
+        <div class="trust__item">
+          <div class="trust__item-logo-container">
+            <i data-lucide="boxes" class="trust__item-logo"></i>
+          </div>
+          <span class="trust__item-title">Bulk Order Availability</span>
+          <span class="trust__item-description">Special pricing for contractors, and dealers.</span>
         </div>
       </div>
     </div>
@@ -176,5 +210,6 @@ createIcons({
     ShieldCheck,
     Truck,
     Clock4,
+    Boxes,
   },
 });
