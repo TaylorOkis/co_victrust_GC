@@ -201,7 +201,7 @@ img {
 
     &:nth-child(2) {
       font-size: var(--fs-15);
-      margin-block-start: -2.5px;
+      margin-block-start: -7.5px;
     }
 
     @media (min-width: calc(600 / 16 * 1rem)) {
@@ -570,13 +570,13 @@ img {
     padding-block: 48px;
     display: grid;
     grid-template-columns: 1fr;
-    padding-inline-start: 32px;
   }
 
   .trust__description {
     align-self: center;
     display: grid;
     gap: 5px;
+    margin-block-end: 16px;
 
     > span {
       display: block;
@@ -596,23 +596,42 @@ img {
       color: var(--neutral-03);
       font-weight: 500;
     }
+
+    @media (max-width: calc(1000 / 16 * 1rem)) {
+      justify-items: center;
+      text-align: center;
+      padding-inline-start: 32px;
+    }
   }
 
   .trust__items {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
     gap: 4px;
+
+    @media (min-width: calc(600 / 16 * 1rem)) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: calc(1000 / 16 * 1rem)) {
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
 
   .trust__item {
     display: grid;
     justify-items: center;
-    gap: 8px;
+    gap: 10px;
     text-align: center;
     padding-block: 18px;
-    width: 250px;
-    max-width: 300px;
+    width: 80%;
     background-color: var(--neutral-01);
     border-radius: 16px;
+
+    @media (min-width: calc(1000 / 16 * 1rem)) {
+      width: 100%;
+    }
   }
 
   .trust__item-logo-container {
@@ -654,7 +673,7 @@ img {
     font-weight: 500;
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: calc(1000 / 16 * 1rem)) {
     .trust__wrapper {
       grid-template-columns: 1fr 1.5fr;
     }

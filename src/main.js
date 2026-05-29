@@ -196,6 +196,38 @@ document.querySelector("#app").innerHTML = `
           <span class="trust__item-title">Bulk Order Availability</span>
           <span class="trust__item-description">Special pricing for contractors, and dealers.</span>
         </div>
+
+        <div class="trust__item">
+          <div class="trust__item-logo-container">
+            <i data-lucide="boxes" class="trust__item-logo"></i>
+          </div>
+          <span class="trust__item-title">Local & Fast Delivery</span>
+          <span class="trust__item-description">Quick delivery to your site or home.</span>
+        </div>
+
+        <div class="trust__item">
+          <div class="trust__item-logo-container">
+            <i data-lucide="boxes" class="trust__item-logo"></i>
+          </div>
+          <span class="trust__item-title">Expert Guidance</span>
+          <span class="trust__item-description">Get help looking for the right products.</span>
+        </div>
+
+        <div class="trust__item">
+          <div class="trust__item-logo-container">
+            <i data-lucide="boxes" class="trust__item-logo"></i>
+          </div>
+          <span class="trust__item-title">Secure Payment</span>
+          <span class="trust__item-description">Safe, multiple payment options.</span>
+        </div>
+
+        <div class="trust__item">
+          <div class="trust__item-logo-container">
+            <i data-lucide="boxes" class="trust__item-logo"></i>
+          </div>
+          <span class="trust__item-title">After Sales Support</span>
+          <span class="trust__item-description">We're here even after your purchase.</span>
+        </div>
       </div>
     </div>
   </section>
