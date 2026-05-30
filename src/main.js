@@ -10,6 +10,8 @@ import {
   Boxes,
   BadgeCheck,
   LockKeyhole,
+  ShoppingCart,
+  ClipboardList,
 } from "lucide";
 
 document.querySelector("#app").innerHTML = `
@@ -233,6 +235,60 @@ document.querySelector("#app").innerHTML = `
       </div>
     </div>
   </section>
+
+  <section class="order">
+    <div class="wrapper order__wrapper">
+      <div class="order__heading">
+        <span>How it works</span>
+        <h5>Get your supplies in 3 simple steps</h5>
+      </div>
+
+      <div class="order__steps">
+        <div class="order__step">
+          <div class="order__step-logo-container">
+            <i data-lucide="shopping-cart" class="order__step-logo"></i>
+            <div class="order__tag-container">
+              <i class="order__tag">1</i>
+            </div>
+          </div>
+          <div class="order__step-text">
+            <span class="order__title">Browse Products</span>
+            <p class="order__desc">Explore our wide range of plumbing supplies.</p>
+          </div>
+        </div>
+
+        <div class="order__connector"></div>
+
+        <div class="order__step">
+          <div class="order__step-logo-container">
+            <i data-lucide="clipboard-list" class="order__step-logo"></i>
+            <div class="order__tag-container">
+              <i class="order__tag">2</i>
+            </div>
+          </div>
+          <div class="order__step-text">
+            <span class="order__title">Request Quote / Order</span>
+            <p class="order__desc">Make an order or request a quote. We'll confirm availability.</p>
+          </div>
+        </div>
+
+        <div class="order__connector"></div>
+
+        <div class="order__step">
+          <div class="order__step-logo-container">
+            <i data-lucide="truck" class="order__step-logo"></i>
+            <div class="order__tag-container">
+              <i class="order__tag">3</i>
+            </div>
+          </div>
+          <div class="order__step-text">
+            <span class="order__title">Fast Delivery</span>
+            <p class="order__desc">We pack and deliver quickly to your location.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 
 <footer>This is the Footer</footer>
@@ -247,5 +303,7 @@ createIcons({
     Boxes,
     BadgeCheck,
     LockKeyhole,
+    ShoppingCart,
+    ClipboardList,
   },
 });
