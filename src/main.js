@@ -43,10 +43,10 @@ document.querySelector("#app").innerHTML = `
     <div class="wrapper hero__wrapper">
       <h1 class="hero__title">Reliable Plumbing & Building Supplies for Every Project</h1>
       <p class="hero__description">A trusted supplier of quality plumbing and building materials, helping homeowners and professionals complete projects safely, efficiently, and with lasting results.</p>
-      <div class="hero__button">
-        <div class="hero__button-inside">
-          <img src="${PhoneIcon}" alt="Phone icon" class="hero__button-icon" width="20" height="20"/>
-          <span class="hero__button-text">Call us: +234-80-1234-5678</span>
+      <div class="contact__button">
+        <div class="contact__button-inside">
+          <img src="${PhoneIcon}" alt="Phone icon" class="contact__button-icon" width="20" height="20"/>
+          <span class="contact__button-text">Call us: +234-80-1234-5678</span>
         </div>
       </div>
     </div>
@@ -284,6 +284,55 @@ document.querySelector("#app").innerHTML = `
           <div class="order__step-text">
             <span class="order__title">Fast Delivery</span>
             <p class="order__desc">We pack and deliver quickly to your location.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonial">
+    <div class="wrapper testimonial__wrapper">
+      <div class="testimonial__heading">
+        <h3>Trusted by Professionals and homeowners</h3>
+        <p>After getting quality plumbing supplies, everything worked smoothly—no leaks, better flow, and total reliability.</p>
+      </div>
+
+      <div class="testimonial__cards">
+        <div class="testimonial__card">
+          <figure class="testimonial__figure">
+            <img />
+            <blockquote class="testimonial__blockquote">
+              <p class="testimonial__quote-text">C.O. Victrust Global Concept is more than just a business—it's a testament to hard work, integrity, and excellence. Led by someone truly special, they provide top-notch plumbing, building materials, and general merchandise with unmatched dedication. If you're looking for quality and trust, this is the place to go!</p>
+            </blockquote>
+
+            <figcaption class="testimonial__author-wrapper">
+              <img />
+              <p class="testimonial__author-description">
+                Janice Hsu<br />
+                Founder and CEO, Evermindly
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TODO: Add company Logos -->
+  <section class="client"></section>
+
+  <section class="cta">
+    <div class="wrapper cta__wrapper">
+      <div class="cta__text">
+        <h4 class="cta__title">Need plumbing supplies for your next project?</h4>
+        <p class="cta__subtitle">Request a quote today and we'll get back to you within 24 hours.</p>
+      </div>
+
+      <div class="cta__action">
+        <div id="cta__button" class="contact__button">
+          <div class="contact__button-inside">
+            <img src="${PhoneIcon}" alt="Phone icon" class="contact__button-icon" width="20" height="20"/>
+            <span class="contact__button-text">Call us: +234-80-1234-5678</span>
           </div>
         </div>
       </div>
