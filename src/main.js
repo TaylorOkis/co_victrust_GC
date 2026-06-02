@@ -12,6 +12,9 @@ import {
   LockKeyhole,
   ShoppingCart,
   ClipboardList,
+  Phone,
+  Mail,
+  MapPin,
 } from "lucide";
 
 document.querySelector("#app").innerHTML = `
@@ -340,7 +343,77 @@ document.querySelector("#app").innerHTML = `
   </section>
 </main>
 
-<footer>This is the Footer</footer>
+<footer class="footer">
+  <div class="wrapper footer__wrapper">
+    <div class="footer__left-side">
+      <a class="topnav__homelink">
+        <img class="topnav__logo" src="/logo.svg" width="36" height="40" />
+        <span id="logo__divider"></span>
+        <div class="topnav__logo-text">
+          <span>C.O VICTRUST</span>
+          <span id="logo__text-bottom">GLOBAL CONCEPT</span>
+        </div>
+      </a>
+
+      <p class="footer__description">Your trusted partner for high quality plumbing supplies and excellent services.</p>
+
+      <div class="footer__social">
+        <img />
+        <img />
+        <img />
+        <img />
+      </div>
+    </div>
+
+    <div class="footer__right-side">
+      <div class="footer__items">
+        <div class="footer__column">
+          <h6 class="footer__column-title">Company</h6>
+          <ul class="footer__links">
+            <li class="footer__link-item"><a class="footer__link">About us</a></li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h6 class="footer__column-title">Contact us</h6>
+          <div class="footer__contact-infos">
+          <ul>
+            <li>
+              <div class="footer__icon">
+                <i data-lucide="map-pin"></i>
+              </div>
+              <span>mile 3, ps114 Big U-line, Woji, Port Harcourt 500101, Rivers</span>
+            </li>
+
+            <div class="footer__contact-info">
+              <div class="footer__icon">
+                <i data-lucide="phone"></i>
+              </div>
+              <span>+234 1234 5678</span>
+            </div>
+
+            <div class="footer__contact-info">
+              <div class="footer__icon">
+                <i data-lucide="mail"></i>
+              </div>
+              <span>c.ovictrustglobalconcept@gmail.com</span>
+            </div>
+
+            <div class="footer__contact-info">
+              <div class="footer__icon">
+                <i data-lucide="clock-4"></i>
+              </div>
+              <span>Mon - Sat 7:300 AM - 5:00 PM</span>
+            </div>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__copyright">&#9400; 2026 C.O Victrust Global Concept. All right reserved.
+    </div>
+  </div>
+</footer>
 `;
 
 createIcons({
@@ -354,5 +427,8 @@ createIcons({
     LockKeyhole,
     ShoppingCart,
     ClipboardList,
+    Phone,
+    Mail,
+    MapPin,
   },
 });
