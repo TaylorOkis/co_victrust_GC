@@ -4,7 +4,7 @@ import PipeImage from "./assets/images/pipes.png";
 import ValveImage from "./assets/images/valves.jpg";
 import ToolsImage from "./assets/images/tools.png";
 import HoseImage from "./assets/images/hose.png";
-import WaterPumpImage from "./assets/images/water_pump.png";
+import WaterPumpImage from "./assets/images/water_pump.webp";
 import ChemicalsImage from "./assets/images/chemicals.png";
 import BathroomFixturesImage from "./assets/images/bathroom_fixtures.png";
 import SanitaryWaresImage from "./assets/images/sanitary_wares.png";
