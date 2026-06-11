@@ -1,6 +1,13 @@
 import "./style.css";
 import PhoneIcon from "./assets/icons/Phone.svg";
 import PipeImage from "./assets/images/pipes.png";
+import ValveImage from "./assets/images/valves.jpg";
+import ToolsImage from "./assets/images/tools.png";
+import HoseImage from "./assets/images/hose.png";
+import WaterPumpImage from "./assets/images/water_pump.png";
+import ChemicalsImage from "./assets/images/chemicals.png";
+import BathroomFixturesImage from "./assets/images/bathroom_fixtures.png";
+import SanitaryWaresImage from "./assets/images/sanitary_wares.png";
 import {
   createIcons,
   Headset,
@@ -129,49 +136,49 @@ document.querySelector("#app").innerHTML = `
         </div>
 
         <div class="category__card">
-          <img src="${PipeImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
+          <img src="${BathroomFixturesImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
           <div class="category__card-overlay"></div>
           <span class="category__card-name">Bathroom</span>
           <span class="category__card-sub">Fixtures</span>
         </div>
 
         <div class="category__card">
-          <img src="${PipeImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
+          <img src="${SanitaryWaresImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
           <div class="category__card-overlay"></div>
           <span class="category__card-name">Sanitary</span>
           <span class="category__card-sub">Wares</span>
         </div>
 
         <div class="category__card">
-          <img src="${PipeImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
+          <img src="${ValveImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
           <div class="category__card-overlay"></div>
           <span class="category__card-name">Valves &</span>
           <span class="category__card-sub">Connectors</span>
         </div>
 
         <div class="category__card">
-          <img src="${PipeImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
+          <img src="${WaterPumpImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
           <div class="category__card-overlay"></div>
           <span class="category__card-name">Water</span>
           <span class="category__card-sub">Pumps</span>
         </div>
 
         <div class="category__card">
-          <img src="${PipeImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
+          <img src="${ChemicalsImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
           <div class="category__card-overlay"></div>
           <span class="category__card-name">Plumbing</span>
           <span class="category__card-sub">Chemicals</span>
         </div>
 
         <div class="category__card">
-          <img src="${PipeImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
+          <img src="${HoseImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
           <div class="category__card-overlay"></div>
           <span class="category__card-name">Hoses &</span>
           <span class="category__card-sub">Pipes</span>
         </div>
 
         <div class="category__card">
-          <img src="${PipeImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
+          <img src="${ToolsImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
           <div class="category__card-overlay"></div>
           <span class="category__card-name">Tools &</span>
           <span class="category__card-sub">Accessories</span>
