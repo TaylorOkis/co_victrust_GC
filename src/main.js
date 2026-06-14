@@ -314,6 +314,7 @@ document.querySelector("#app").innerHTML = `
       </div>
 
       <div class="testimonial__cards">
+      <div class="testimonial__group">
         <div class="testimonial__card">
           <figure class="testimonial__figure">
             <img />
@@ -329,6 +330,154 @@ document.querySelector("#app").innerHTML = `
             </figcaption>
           </figure>
         </div>
+
+        <div class="testimonial__card">
+          <figure class="testimonial__figure">
+            <img />
+            <blockquote class="testimonial__blockquote">
+              <p class="testimonial__quote-text">"C.O. Victrust Global Concept is more than just a business—it's a testament to hard work, integrity, and excellence. Led by someone truly special, they provide top-notch plumbing, building materials, and general merchandise with unmatched dedication. If you're looking for quality and trust, this is the place to go!"</p>
+            </blockquote>
+
+            <figcaption class="testimonial__author-wrapper">
+              <p class="testimonial__author-description">
+                Janice Hsu<br />
+                Founder and CEO, Evermindly
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="testimonial__card">
+          <figure class="testimonial__figure">
+            <img />
+            <blockquote class="testimonial__blockquote">
+              <p class="testimonial__quote-text">"C.O. Victrust Global Concept is more than just a business—it's a testament to hard work, integrity, and excellence. Led by someone truly special, they provide top-notch plumbing, building materials, and general merchandise with unmatched dedication. If you're looking for quality and trust, this is the place to go!"</p>
+            </blockquote>
+
+            <figcaption class="testimonial__author-wrapper">
+              <p class="testimonial__author-description">
+                Janice Hsu<br />
+                Founder and CEO, Evermindly
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="testimonial__card">
+          <figure class="testimonial__figure">
+            <img />
+            <blockquote class="testimonial__blockquote">
+              <p class="testimonial__quote-text">"C.O. Victrust Global Concept is more than just a business—it's a testament to hard work, integrity, and excellence. Led by someone truly special, they provide top-notch plumbing, building materials, and general merchandise with unmatched dedication. If you're looking for quality and trust, this is the place to go!"</p>
+            </blockquote>
+
+            <figcaption class="testimonial__author-wrapper">
+              <p class="testimonial__author-description">
+                Janice Hsu<br />
+                Founder and CEO, Evermindly
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="testimonial__card">
+          <figure class="testimonial__figure">
+            <img />
+            <blockquote class="testimonial__blockquote">
+              <p class="testimonial__quote-text">"C.O. Victrust Global Concept is more than just a business—it's a testament to hard work, integrity, and excellence. Led by someone truly special, they provide top-notch plumbing, building materials, and general merchandise with unmatched dedication. If you're looking for quality and trust, this is the place to go!"</p>
+            </blockquote>
+
+            <figcaption class="testimonial__author-wrapper">
+              <p class="testimonial__author-description">
+                Janice Hsu<br />
+                Founder and CEO, Evermindly
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+        </div>
+
+        <div class="testimonial__group">
+        <div class="testimonial__card">
+          <figure class="testimonial__figure">
+            <img />
+            <blockquote class="testimonial__blockquote">
+              <p class="testimonial__quote-text">"C.O. Victrust Global Concept is more than just a business—it's a testament to hard work, integrity, and excellence. Led by someone truly special, they provide top-notch plumbing, building materials, and general merchandise with unmatched dedication. If you're looking for quality and trust, this is the place to go!"</p>
+            </blockquote>
+
+            <figcaption class="testimonial__author-wrapper">
+              <p class="testimonial__author-description">
+                Janice Hsu<br />
+                Founder and CEO, Evermindly
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="testimonial__card">
+          <figure class="testimonial__figure">
+            <img />
+            <blockquote class="testimonial__blockquote">
+              <p class="testimonial__quote-text">"C.O. Victrust Global Concept is more than just a business—it's a testament to hard work, integrity, and excellence. Led by someone truly special, they provide top-notch plumbing, building materials, and general merchandise with unmatched dedication. If you're looking for quality and trust, this is the place to go!"</p>
+            </blockquote>
+
+            <figcaption class="testimonial__author-wrapper">
+              <p class="testimonial__author-description">
+                Janice Hsu<br />
+                Founder and CEO, Evermindly
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="testimonial__card">
+          <figure class="testimonial__figure">
+            <img />
+            <blockquote class="testimonial__blockquote">
+              <p class="testimonial__quote-text">"C.O. Victrust Global Concept is more than just a business—it's a testament to hard work, integrity, and excellence. Led by someone truly special, they provide top-notch plumbing, building materials, and general merchandise with unmatched dedication. If you're looking for quality and trust, this is the place to go!"</p>
+            </blockquote>
+
+            <figcaption class="testimonial__author-wrapper">
+              <p class="testimonial__author-description">
+                Janice Hsu<br />
+                Founder and CEO, Evermindly
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="testimonial__card">
+          <figure class="testimonial__figure">
+            <img />
+            <blockquote class="testimonial__blockquote">
+              <p class="testimonial__quote-text">"C.O. Victrust Global Concept is more than just a business—it's a testament to hard work, integrity, and excellence. Led by someone truly special, they provide top-notch plumbing, building materials, and general merchandise with unmatched dedication. If you're looking for quality and trust, this is the place to go!"</p>
+            </blockquote>
+
+            <figcaption class="testimonial__author-wrapper">
+              <p class="testimonial__author-description">
+                Janice Hsu<br />
+                Founder and CEO, Evermindly
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="testimonial__card">
+          <figure class="testimonial__figure">
+            <img />
+            <blockquote class="testimonial__blockquote">
+              <p class="testimonial__quote-text">"C.O. Victrust Global Concept is more than just a business—it's a testament to hard work, integrity, and excellence. Led by someone truly special, they provide top-notch plumbing, building materials, and general merchandise with unmatched dedication. If you're looking for quality and trust, this is the place to go!"</p>
+            </blockquote>
+
+            <figcaption class="testimonial__author-wrapper">
+              <p class="testimonial__author-description">
+                Janice Hsu<br />
+                Founder and CEO, Evermindly
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+        </div>
+      </div>
       </div>
     </div>
   </section>
