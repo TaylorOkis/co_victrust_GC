@@ -261,6 +261,44 @@ a {
   }
 }
 
+.banner {
+  background-color: var(--theme-02);
+
+  .banner__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-block: 6px;
+    padding-inline: 8px;
+  }
+
+  .banner__contact-info {
+    display: flex;
+    gap: 20px;
+  }
+
+  .banner__info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    > span {
+      font-size: var(--fs-14);
+      font-weight: 600;
+    }
+  }
+
+  .banner__socials {
+    display: flex;
+    gap: 15px;
+  }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
 .topnav {
   background-color: var(--black);
   backdrop-filter: blur(10px);

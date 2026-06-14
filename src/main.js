@@ -31,6 +31,28 @@ import {
 } from "lucide";
 
 document.querySelector("#app").innerHTML = `
+<div class="banner">
+  <div class="wrapper banner__wrapper">
+    <div class="banner__contact-info">
+      <div class="banner__info">
+        <i data-lucide="phone" width="25px" height="20px"></i>
+        <span>+234-80-1234-5678</span>
+      </div>
+
+      <div class="banner__info">
+        <i data-lucide="mail" width="25px" height="20px"></i>
+        <span>c.ovictrustglobalconcept@gmail.com</span>
+      </div>
+    </div>
+
+    <div class="banner__socials">
+      <i class="fa-brands fa-instagram fa-lg"></i>
+      <i class="fa-brands fa-facebook fa-lg"></i>
+      <i class="fa-brands fa-x-twitter fa-lg"></i>
+    </div>
+  </div>
+</div>
+
 <header class="topnav">
   <div class="wrapper topnav__wrapper">
     <div class="topnav__home">
