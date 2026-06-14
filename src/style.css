@@ -852,7 +852,7 @@ a {
 
   .testimonial__wrapper {
     padding-block-start: 48px;
-    padding-block-end: 120px;
+    padding-block-end: 48px;
   }
 
   .testimonial__heading {
@@ -883,6 +883,67 @@ a {
     max-width: 408px;
     padding: 24px;
     border-radius: 16px;
+  }
+}
+
+.client {
+  background-color: var(--line);
+
+  .client__wrapper {
+    padding-block-start: 36px;
+    padding-block-end: 60px;
+
+    @media (min-width: 1000px) {
+      padding-block-end: 96px;
+    }
+  }
+
+  .client__logos {
+    display: flex;
+    overflow-x: auto;
+
+    /* Firefox and Edge */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .client__logos::-webkit-scrollbar {
+    display: none;
+  }
+
+  .client__group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+
+    flex-shrink: 0;
+    width: 100%;
+    padding-right: 48px;
+
+    animation: scroll 10s linear infinite;
+  }
+
+  .client__logo {
+    width: clamp(4.688rem, calc(2.983rem + 8.523vw), 9.375rem);
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+  }
+
+  .client__logo:hover {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes scroll {
+  from {
+    translate: 0;
+  }
+
+  to {
+    translate: -100%;
   }
 }
 

@@ -8,6 +8,12 @@ import WaterPumpImage from "./assets/images/water_pump.webp";
 import ChemicalsImage from "./assets/images/chemicals.png";
 import BathroomFixturesImage from "./assets/images/bathroom_fixtures.png";
 import SanitaryWaresImage from "./assets/images/sanitary_wares.png";
+import ATILlogo from "./assets/images/logos/ATIL-logo-main.png";
+import EmporisLogo from "./assets/images/logos/Emporis_logo.png";
+import JocamLogo from "./assets/images/logos/jocam_nigeria_ltd_logo.jpg";
+import NewayLogo from "./assets/images/logos/Neway.svg";
+import NotoreLogo from "./assets/images/logos/notore.png";
+import SeflamLogo from "./assets/images/logos/seflam-SGL_logo.png";
 import {
   createIcons,
   Headset,
@@ -312,11 +318,10 @@ document.querySelector("#app").innerHTML = `
           <figure class="testimonial__figure">
             <img />
             <blockquote class="testimonial__blockquote">
-              <p class="testimonial__quote-text">C.O. Victrust Global Concept is more than just a business—it's a testament to hard work, integrity, and excellence. Led by someone truly special, they provide top-notch plumbing, building materials, and general merchandise with unmatched dedication. If you're looking for quality and trust, this is the place to go!</p>
+              <p class="testimonial__quote-text">"C.O. Victrust Global Concept is more than just a business—it's a testament to hard work, integrity, and excellence. Led by someone truly special, they provide top-notch plumbing, building materials, and general merchandise with unmatched dedication. If you're looking for quality and trust, this is the place to go!"</p>
             </blockquote>
 
             <figcaption class="testimonial__author-wrapper">
-              <img />
               <p class="testimonial__author-description">
                 Janice Hsu<br />
                 Founder and CEO, Evermindly
@@ -328,8 +333,29 @@ document.querySelector("#app").innerHTML = `
     </div>
   </section>
 
-  <!-- TODO: Add company Logos -->
-  <section class="client"></section>
+  <section class="client">
+    <div class="wrapper client__wrapper">
+      <div class="client__logos">
+        <div class="client__group">
+          <img src="${ATILlogo}" alt="ATIL logo" class="client__logo" width="392" height="101" />
+          <img src="${EmporisLogo}" alt="Emporis logo" class="client__logo" width="222" height="55" />
+          <img src="${JocamLogo}" alt="Jocam logo" class="client__logo" width="200" height="200" />
+          <img src="${NewayLogo}" alt="Neway logo" class="client__logo" width="220" height="100" />
+          <img src="${NotoreLogo}" alt="Notore logo" class="client__logo" width="200" height="75" />
+          <img src="${SeflamLogo}" alt="Seflam logo" class="client__logo" width="716" height="176"/>
+        </div>
+
+        <div class="client__group" aria-hidden="true">
+          <img src="${ATILlogo}" alt="ATIL logo" class="client__logo" width="392" height="101" />
+          <img src="${EmporisLogo}" alt="Emporis logo" class="client__logo" width="222" height="55" />
+          <img src="${JocamLogo}" alt="Jocam logo" class="client__logo" width="200" height="200" />
+          <img src="${NewayLogo}" alt="Neway logo" class="client__logo" width="220" height="100" />
+          <img src="${NotoreLogo}" alt="Notore logo" class="client__logo" width="200" height="75" />
+          <img src="${SeflamLogo}" alt="Seflam logo" class="client__logo" width="716" height="176"/>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section class="cta">
     <div class="wrapper cta__wrapper">
