@@ -914,11 +914,10 @@ a {
   .client__group {
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 48px;
-
+    width: max-content;
     flex-shrink: 0;
-    width: 100%;
     padding-right: 48px;
 
     animation: scroll 10s linear infinite;
