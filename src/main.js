@@ -99,7 +99,7 @@ document.querySelector("#app").innerHTML = `
             <i data-lucide="clock-4" class="offer__logo"></i>
           </div>
           <div class="offer__description">
-            <div class="offer__description-title">5+ Years
+            <div class="offer__description-title">10+ Years
             </div>
             <div class="offer__description-content">
               Experience and expertise
@@ -561,11 +561,10 @@ document.querySelector("#app").innerHTML = `
 
       <p class="footer__description">Your trusted partner for high quality plumbing supplies and excellent services.</p>
 
-      <div class="footer__social">
-        <img />
-        <img />
-        <img />
-        <img />
+      <div class="footer__socials">
+        <i class="fa-brands fa-instagram fa-2x"></i>
+        <i class="fa-brands fa-facebook fa-2x"></i>
+        <i class="fa-brands fa-x-twitter fa-2x"></i>
       </div>
     </div>
 
@@ -580,35 +579,43 @@ document.querySelector("#app").innerHTML = `
         <div class="footer__column">
           <h6 class="footer__column-title">Contact us</h6>
           <div class="footer__contact-infos">
-          <ul>
-            <li>
-              <div class="footer__icon">
-                <i data-lucide="map-pin"></i>
-              </div>
-              <span>mile 3, ps114 Big U-line, Woji, Port Harcourt 500101, Rivers</span>
-            </li>
+            <ul>
+              <li>
+                <div class="footer__contact-info">
+                  <div class="footer__icon">
+                    <i data-lucide="map-pin"></i>
+                  </div>
+                  <span>Mile 3, ps114 Big U-line, Woji, Port Harcourt 500101, Rivers</span>
+                </div>
+              </li>
 
-            <div class="footer__contact-info">
-              <div class="footer__icon">
-                <i data-lucide="phone"></i>
-              </div>
-              <span>+234 1234 5678</span>
-            </div>
+              <li>
+                <div class="footer__contact-info">
+                  <div class="footer__icon">
+                    <i data-lucide="phone"></i>
+                  </div>
+                  <span>+234 1234 5678</span>
+                </div>
+              </li>
 
-            <div class="footer__contact-info">
-              <div class="footer__icon">
-                <i data-lucide="mail"></i>
-              </div>
-              <span>c.ovictrustglobalconcept@gmail.com</span>
-            </div>
+              <li>
+                <div class="footer__contact-info">
+                  <div class="footer__icon">
+                    <i data-lucide="mail"></i>
+                  </div>
+                  <span>c.ovictrustglobalconcept@gmail.com</span>
+                </div>
+              </li>
 
-            <div class="footer__contact-info">
-              <div class="footer__icon">
-                <i data-lucide="clock-4"></i>
-              </div>
-              <span>Mon - Sat 7:300 AM - 5:00 PM</span>
-            </div>
-          </ul>
+              <li>
+                <div class="footer__contact-info">
+                  <div class="footer__icon">
+                    <i data-lucide="clock-4"></i>
+                  </div>
+                  <span>Mon - Sat&nbsp;&nbsp;&nbsp;&nbsp;7:30 AM - 5:00 PM</span>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

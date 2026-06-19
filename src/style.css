@@ -275,13 +275,13 @@ a {
     display: inline-block;
 
     &:nth-child(1) {
-      font-size: var(--fs-30);
+      font-size: calc(24 / 16 * 1rem);
       font-family: "Anton SC";
       color: var(--theme-01);
     }
 
     &:nth-child(2) {
-      font-size: var(--fs-15);
+      font-size: var(--fs-12);
       margin-block-start: -7.5px;
       font-weight: 700;
     }
@@ -341,7 +341,7 @@ a {
   backdrop-filter: blur(10px);
   z-index: 10;
   padding-block: 14px;
-  opacity: 0.9;
+  opacity: 0.95;
   position: sticky;
   top: 0;
 
@@ -412,6 +412,7 @@ a {
   background-position: center;
   background-size: cover;
   position: relative;
+  margin-block-start: -1px;
 
   .hero__wrapper {
     padding-block-start: calc(20px + 170px);
@@ -1146,6 +1147,7 @@ a {
   }
 
   .footer__left-side {
+    padding-block-end: 48px;
     @media (min-width: calc(1000 / 16 * 1rem)) {
       margin-inline-start: 36px;
     }
@@ -1155,12 +1157,14 @@ a {
   }
 
   .footer__description {
-    font-size: 18px;
+    font-size: var(--fs-16);
     max-width: 28ch;
     margin-block: 24px;
   }
 
-  .footer__social {
+  .footer__socials {
+    display: flex;
+    gap: 4px;
   }
 
   .footer__items {
@@ -1194,17 +1198,17 @@ a {
   }
 
   .footer__contact-info {
-    > i {
-      margin-inline-right: 36px;
-    }
+    display: flex;
+    gap: 8px;
+    align-items: start;
+    margin-block-end: 8px;
 
     > span {
+      font-size: var(--fs-16);
     }
   }
 
   .footer__icon {
-    display: inline-block;
-    padding: 4px;
   }
 
   .footer__copyright {
