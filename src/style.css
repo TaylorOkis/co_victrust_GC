@@ -1148,6 +1148,7 @@ a {
 
   .footer__left-side {
     padding-block-end: 48px;
+
     @media (min-width: calc(1000 / 16 * 1rem)) {
       margin-inline-start: 36px;
     }
@@ -1170,7 +1171,7 @@ a {
   .footer__items {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 48px;
 
     @media (min-width: calc(1000 / 16 * 1rem)) {
       flex-direction: row;
