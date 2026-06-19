@@ -151,61 +151,61 @@ document.querySelector("#app").innerHTML = `
 
   <section class="category">
     <div class="wrapper category__wrapper">
-      <div class="category__heading">
+      <div class="category__heading autoShow">
         <h2 class="category__title">Find what you need</h2>
         <p class="category__description">We supply premium plumbing materials across the following categories</p>
       </div>
       <div class="category__grid">
-        <div class="category__card">
+        <div class="category__card imageReveal">
           <img src="${PipeImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
           <div class="category__card-overlay"></div>
           <span class="category__card-name">Pipes &</span>
           <span class="category__card-sub">Fittings</span>
         </div>
 
-        <div class="category__card">
+        <div class="category__card imageReveal">
           <img src="${BathroomFixturesImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
           <div class="category__card-overlay"></div>
           <span class="category__card-name">Bathroom</span>
           <span class="category__card-sub">Fixtures</span>
         </div>
 
-        <div class="category__card">
+        <div class="category__card imageReveal">
           <img src="${SanitaryWaresImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
           <div class="category__card-overlay"></div>
           <span class="category__card-name">Sanitary</span>
           <span class="category__card-sub">Wares</span>
         </div>
 
-        <div class="category__card">
+        <div class="category__card imageReveal">
           <img src="${ValveImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
           <div class="category__card-overlay"></div>
           <span class="category__card-name">Valves &</span>
           <span class="category__card-sub">Connectors</span>
         </div>
 
-        <div class="category__card">
+        <div class="category__card imageReveal">
           <img src="${WaterPumpImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
           <div class="category__card-overlay"></div>
           <span class="category__card-name">Water</span>
           <span class="category__card-sub">Pumps</span>
         </div>
 
-        <div class="category__card">
+        <div class="category__card imageReveal">
           <img src="${ChemicalsImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
           <div class="category__card-overlay"></div>
           <span class="category__card-name">Plumbing</span>
           <span class="category__card-sub">Chemicals</span>
         </div>
 
-        <div class="category__card">
+        <div class="category__card imageReveal">
           <img src="${HoseImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
           <div class="category__card-overlay"></div>
           <span class="category__card-name">Hoses &</span>
           <span class="category__card-sub">Pipes</span>
         </div>
 
-        <div class="category__card">
+        <div class="category__card imageReveal">
           <img src="${ToolsImage}" alt="An image of a pipes" class="category__card-image" width="765" height="1020"/>
           <div class="category__card-overlay"></div>
           <span class="category__card-name">Tools &</span>
@@ -217,13 +217,13 @@ document.querySelector("#app").innerHTML = `
 
   <section class="trust">
     <div class="wrapper trust__wrapper">
-      <div class="trust__description">
+      <div class="trust__description autoShow">
         <span>Why choose us</span>
         <h4>Built on quality. Focused on you.</h4>
         <p>We provide reliable plumbing supplies and excellent service for your needs.</p>
       </div>
       <div class="trust__items">
-        <div class="trust__item">
+        <div class="trust__item imageReveal">
           <div class="trust__item-logo-container">
             <i data-lucide="shield-check" class="trust__item-logo"></i>
           </div>
@@ -231,7 +231,7 @@ document.querySelector("#app").innerHTML = `
           <span class="trust__item-description">Durable, long-lasting products you can trust.</span>
         </div>
 
-        <div class="trust__item">
+        <div class="trust__item imageReveal">
           <div class="trust__item-logo-container">
             <i data-lucide="boxes" class="trust__item-logo"></i>
           </div>
@@ -239,7 +239,7 @@ document.querySelector("#app").innerHTML = `
           <span class="trust__item-description">Special pricing for contractors, and dealers.</span>
         </div>
 
-        <div class="trust__item">
+        <div class="trust__item imageReveal">
           <div class="trust__item-logo-container">
             <i data-lucide="truck" class="trust__item-logo"></i>
           </div>
@@ -247,7 +247,7 @@ document.querySelector("#app").innerHTML = `
           <span class="trust__item-description">Quick delivery to your site or home.</span>
         </div>
 
-        <div class="trust__item">
+        <div class="trust__item imageReveal">
           <div class="trust__item-logo-container">
             <i data-lucide="badge-check" class="trust__item-logo"></i>
           </div>
@@ -255,7 +255,7 @@ document.querySelector("#app").innerHTML = `
           <span class="trust__item-description">Get help looking for the right products.</span>
         </div>
 
-        <div class="trust__item">
+        <div class="trust__item imageReveal">
           <div class="trust__item-logo-container">
             <i data-lucide="lock-keyhole" class="trust__item-logo"></i>
           </div>
@@ -263,7 +263,7 @@ document.querySelector("#app").innerHTML = `
           <span class="trust__item-description">Safe, multiple payment options.</span>
         </div>
 
-        <div class="trust__item">
+        <div class="trust__item imageReveal">
           <div class="trust__item-logo-container">
             <i data-lucide="headset" class="trust__item-logo"></i>
           </div>
@@ -276,13 +276,13 @@ document.querySelector("#app").innerHTML = `
 
   <section class="order">
     <div class="wrapper order__wrapper">
-      <div class="order__heading">
+      <div class="order__heading autoShow">
         <span>How it works</span>
         <h5>Get your supplies in 3 simple steps</h5>
       </div>
 
       <div class="order__steps">
-        <div class="order__step">
+        <div class="order__step imageReveal">
           <div class="order__step-logo-container">
             <i data-lucide="shopping-cart" class="order__step-logo"></i>
             <div class="order__tag-container">
@@ -295,9 +295,9 @@ document.querySelector("#app").innerHTML = `
           </div>
         </div>
 
-        <div class="order__connector"></div>
+        <div class="order__connector imageReveal"></div>
 
-        <div class="order__step">
+        <div class="order__step imageReveal">
           <div class="order__step-logo-container">
             <i data-lucide="clipboard-list" class="order__step-logo"></i>
             <div class="order__tag-container">
@@ -310,9 +310,9 @@ document.querySelector("#app").innerHTML = `
           </div>
         </div>
 
-        <div class="order__connector"></div>
+        <div class="order__connector imageReveal"></div>
 
-        <div class="order__step">
+        <div class="order__step imageReveal">
           <div class="order__step-logo-container">
             <i data-lucide="truck" class="order__step-logo"></i>
             <div class="order__tag-container">
@@ -330,7 +330,7 @@ document.querySelector("#app").innerHTML = `
 
   <section class="testimonial">
     <div class="wrapper testimonial__wrapper">
-      <div class="testimonial__heading">
+      <div class="testimonial__heading autoShow">
         <h3>Trusted by Professionals and homeowners</h3>
         <p>After getting quality plumbing supplies, everything worked smoothly—no leaks, better flow, and total reliability.</p>
       </div>
@@ -530,13 +530,13 @@ document.querySelector("#app").innerHTML = `
 
   <section class="cta">
     <div class="wrapper cta__wrapper">
-      <div class="cta__text">
+      <div class="cta__text autoShow">
         <h4 class="cta__title">Need plumbing supplies for your next project?</h4>
         <p class="cta__subtitle">Request a quote today and we'll get back to you within 24 hours.</p>
       </div>
 
       <div class="cta__action">
-        <div id="cta__button" class="contact__button">
+        <div id="cta__button" class="contact__button autoShow">
           <div class="contact__button-inside">
             <img src="${PhoneIcon}" alt="Phone icon" class="contact__button-icon" width="20" height="20"/>
             <span class="contact__button-text">Call us: +234-80-1234-5678</span>
