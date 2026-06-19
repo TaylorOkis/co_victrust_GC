@@ -415,7 +415,7 @@ a {
 
   .hero__wrapper {
     padding-block-start: calc(20px + 170px);
-    padding-block-end: 80px;
+    padding-block-end: 144px;
     position: relative;
     z-index: 4;
   }
@@ -471,12 +471,12 @@ a {
   .offer__bg {
     display: grid;
     background-color: var(--theme-01);
-    padding: 28px 16px;
+    padding: 48px 16px;
     border-radius: 8px;
     justify-content: space-around;
 
     grid-template-columns: 1fr;
-    gap: 48px;
+    gap: 64px;
   }
 
   .offer__item {
@@ -488,8 +488,8 @@ a {
   }
 
   .offer__logo-container {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     background-color: var(--neutral-01);
     display: grid;
@@ -498,8 +498,8 @@ a {
 
   .offer__logo {
     color: var(--theme-02);
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
   }
 
   .offer__description-title {
@@ -509,13 +509,23 @@ a {
   }
 
   .offer__description-content {
-    font-size: var(--fs-20);
+    font-size: var(--fs-16);
     max-width: 15ch;
   }
 
   @media (min-width: 600px) {
     .offer__bg {
       grid-template-columns: repeat(2, 1fr);
+    }
+
+    .offer__logo-container {
+      width: 60px;
+      height: 60px;
+    }
+
+    .offer__logo {
+      width: 40px;
+      height: 40px;
     }
 
     .offer__description-title {
