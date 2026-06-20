@@ -14,6 +14,9 @@ import JocamLogo from "./assets/images/logos/jocam_nigeria_ltd_logo.jpg";
 import NewayLogo from "./assets/images/logos/Neway.svg";
 import NotoreLogo from "./assets/images/logos/notore.png";
 import SeflamLogo from "./assets/images/logos/seflam-SGL_logo.png";
+import UserImage01 from "./assets/images/profiles/user_1.webp";
+import UserImage02 from "./assets/images/profiles/user_2.webp";
+import UserImage03 from "./assets/images/profiles/user_3.webp";
 import {
   createIcons,
   Headset,
@@ -79,6 +82,17 @@ document.querySelector("#app").innerHTML = `
     <div class="hero__linear--overlay"></div>
     <div class="hero__linear--blur-overlay"></div>
     <div class="wrapper hero__wrapper">
+      <div class="hero__rating">
+        <div class="hero__rating-images">
+          <img src="${UserImage01}" alt="A profile image" width="48px" height="48px" class="hero__rating-image"/>
+          <img src="${UserImage02}" width="48px" height="48px" class="hero__rating-image"/>
+          <img src="${UserImage03}" width="48px" height="48px" class="hero__rating-image" />
+        </div>
+        <div class="hero__rating-text">
+          <span>Ratings &nbsp;<i class="fa-solid fa-star" style="color: #febf03; width: 20px; height: 20px;"></i>&nbsp; 4.7</span>
+          <span>Trusted reviews from Google</span>
+        </div>
+      </div>
       <h1 class="hero__title">Reliable Plumbing & Building Supplies for Every Project</h1>
       <p class="hero__description">A trusted supplier of quality plumbing and building materials, helping homeowners and professionals complete projects safely, efficiently, and with lasting results.</p>
       <div class="contact__button">
@@ -276,7 +290,7 @@ document.querySelector("#app").innerHTML = `
 
   <section class="order">
     <div class="wrapper order__wrapper">
-      <div class="order__heading autoShow">
+      <div class="order__heading">
         <span>How it works</span>
         <h5>Get your supplies in 3 simple steps</h5>
       </div>
@@ -530,13 +544,13 @@ document.querySelector("#app").innerHTML = `
 
   <section class="cta">
     <div class="wrapper cta__wrapper">
-      <div class="cta__text autoShow">
+      <div class="cta__text">
         <h4 class="cta__title">Need plumbing supplies for your next project?</h4>
         <p class="cta__subtitle">Request a quote today and we'll get back to you within 24 hours.</p>
       </div>
 
       <div class="cta__action">
-        <div id="cta__button" class="contact__button autoShow">
+        <div id="cta__button" class="contact__button">
           <div class="contact__button-inside">
             <img src="${PhoneIcon}" alt="Phone icon" class="contact__button-icon" width="20" height="20"/>
             <span class="contact__button-text">Call us: +234-80-1234-5678</span>
