@@ -407,7 +407,7 @@ a {
 .hero {
   background: var(--black);
   opacity: 0.88;
-  background-image: url("./assets/images/hero_bg_image.png");
+  background-image: url("./assets/images/hero_image.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -416,7 +416,7 @@ a {
   color: var(--neutral-01);
 
   .hero__wrapper {
-    padding-block-start: clamp(4rem, calc(1.636rem + 11.818vw), 10.5rem);
+    padding-block-start: clamp(4rem, calc(1.636rem + 11.818vw), 9rem);
     padding-block-end: 144px;
     position: relative;
     z-index: 4;

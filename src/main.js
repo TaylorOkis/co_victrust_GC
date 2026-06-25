@@ -12,7 +12,7 @@ import ATILlogo from "./assets/images/logos/ATIL-logo-main.png";
 import EmporisLogo from "./assets/images/logos/Emporis_logo.png";
 import JocamLogo from "./assets/images/logos/jocam_nigeria_ltd_logo.jpg";
 import NewayLogo from "./assets/images/logos/Neway.svg";
-import NotoreLogo from "./assets/images/logos/notore.png";
+import NotoreLogo from "./assets/images/logos/notore.svg";
 import SeflamLogo from "./assets/images/logos/seflam-SGL_logo.png";
 import UserImage01 from "./assets/images/profiles/user_1.webp";
 import UserImage02 from "./assets/images/profiles/user_2.webp";
@@ -93,7 +93,7 @@ document.querySelector("#app").innerHTML = `
           <span>Trusted reviews from Google</span>
         </div>
       </div>
-      <h1 class="hero__title">Reliable Plumbing & Building Supplies for Every Project</h1>
+      <h1 class="hero__title">Reliable Plumbing Materials Supply for Every Project</h1>
       <p class="hero__description">A trusted supplier of quality plumbing and building materials, helping homeowners and professionals complete projects safely, efficiently, and with lasting results.</p>
       <div class="contact__button">
         <div class="contact__button-inside">
