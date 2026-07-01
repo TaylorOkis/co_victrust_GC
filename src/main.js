@@ -111,7 +111,9 @@ document.querySelector("#app").innerHTML = `
       <div class="contact__button">
         <div class="contact__button-inside">
           <img src="${PhoneIcon}" alt="Phone icon" class="contact__button-icon" width="20" height="20"/>
-          <span class="contact__button-text">Call us: +234-80-1234-5678</span>
+          <a href="tel:+2348088515772">
+            <span class="contact__button-text">Call us: +234-80-8851-5772</span>
+          </a>
         </div>
       </div>
     </div>
@@ -566,7 +568,9 @@ document.querySelector("#app").innerHTML = `
         <div id="cta__button" class="contact__button">
           <div class="contact__button-inside">
             <img src="${PhoneIcon}" alt="Phone icon" class="contact__button-icon" width="20" height="20"/>
-            <span class="contact__button-text">Call us: +234-80-1234-5678</span>
+            <a href="tel:+2348088515772">
+              <span class="contact__button-text">Call us: +234-80-8851-5772</span>
+            </a>
           </div>
         </div>
       </div>
@@ -627,7 +631,7 @@ document.querySelector("#app").innerHTML = `
                   <div class="footer__icon">
                     <i data-lucide="phone"></i>
                   </div>
-                  <span>+234 1234 5678</span>
+                  <span>+234-80-8851-5772</span>
                 </div>
               </li>
 
