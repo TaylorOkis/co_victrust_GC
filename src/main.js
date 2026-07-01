@@ -1,4 +1,5 @@
 import "./style.css";
+import { initEventListeners } from "./listeners.js";
 import PhoneIcon from "./assets/icons/Phone.svg";
 import PipeImage from "./assets/images/pipes.png";
 import ValveImage from "./assets/images/valves.jpg";
@@ -49,9 +50,15 @@ document.querySelector("#app").innerHTML = `
     </div>
 
     <div class="banner__socials">
-      <i class="fa-brands fa-instagram fa-lg"></i>
-      <i class="fa-brands fa-facebook fa-lg"></i>
-      <i class="fa-brands fa-x-twitter fa-lg"></i>
+      <a href="https://www.instagram.com/covictrustglobalconcept/" target="_blank">
+        <i class="fa-brands fa-instagram fa-lg"></i>
+      </a>
+      <a href="https://facebook.com/people/Co-victrust-global-concept/100093107737561/" target="_blank">
+        <i class="fa-brands fa-facebook fa-lg"></i>
+      </a>
+      <a href="https://x.com/CVictrust76520" target="_blank">
+        <i class="fa-brands fa-x-twitter fa-lg"></i>
+      </a>
     </div>
   </div>
 </div>
@@ -74,6 +81,12 @@ document.querySelector("#app").innerHTML = `
       <span></span>
       <span></span>
     </div>
+
+    <nav class="topnav__menu">
+      <ul class="topnav__links">
+        <li class="topnav__item"><a class="topnav__link" style="color: white;">About us</a></li>
+      </ul>
+    </nav>
   </div>
 </header>
 
@@ -576,9 +589,15 @@ document.querySelector("#app").innerHTML = `
       <p class="footer__description">Your trusted partner for high quality plumbing supplies and excellent services.</p>
 
       <div class="footer__socials">
-        <i class="fa-brands fa-instagram fa-2x"></i>
-        <i class="fa-brands fa-facebook fa-2x"></i>
-        <i class="fa-brands fa-x-twitter fa-2x"></i>
+        <a href="https://www.instagram.com/covictrustglobalconcept/" target="_blank">
+          <i class="fa-brands fa-instagram fa-2x"></i>
+        </a>
+        <a href="https://facebook.com/people/Co-victrust-global-concept/100093107737561/" target="_blank">
+          <i class="fa-brands fa-facebook fa-2x"></i>
+        </a>
+        <a href="https://x.com/CVictrust76520" target="_blank">
+          <i class="fa-brands fa-x-twitter fa-2x"></i>
+        </a>
       </div>
     </div>
 
@@ -657,3 +676,5 @@ createIcons({
     MapPin,
   },
 });
+
+initEventListeners();

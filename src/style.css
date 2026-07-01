@@ -347,6 +347,7 @@ a {
 
   .topnav__wrapper {
     display: flex;
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -360,7 +361,7 @@ a {
       cursor: pointer;
     }
 
-    @media (width >= calc(1000 / 16 * 1rem)) {
+    @media (width >= calc(768 / 16 * 1rem)) {
       display: none;
     }
   }
@@ -400,6 +401,25 @@ a {
       top: 50%;
       width: 60%;
       transform: translate(-50%, -50%) rotate(-45deg);
+    }
+  }
+
+  .topnav__menu {
+    position: absolute;
+    height: 50vh;
+    bottom: 0;
+    z-index: 999;
+
+    background-color: var(--black);
+
+    &:not(.active) {
+      display: none;
+    }
+  }
+
+  .topnav__links {
+    @media (max-width: 48rem) {
+      display: none;
     }
   }
 }
@@ -1033,7 +1053,7 @@ a {
     flex-shrink: 0;
     padding-right: 40px;
 
-    animation: scroll 65s linear infinite;
+    animation: scroll 85s linear infinite;
   }
 
   .testimonial__card {
@@ -1093,7 +1113,7 @@ a {
     flex-shrink: 0;
     padding-right: 48px;
 
-    animation: scroll 10s linear infinite;
+    animation: scroll 30s linear infinite;
 
     @media (min-width: 1240px) {
       width: 100%;
