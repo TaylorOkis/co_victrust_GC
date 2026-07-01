@@ -40,12 +40,16 @@ document.querySelector("#app").innerHTML = `
     <div class="banner__contact-info">
       <div class="banner__info">
         <i data-lucide="phone" width="25px" height="20px"></i>
-        <span>+234-80-1234-5678</span>
+        <a href="tel:+2348088515772" target="_blank">
+          <span>+234-80-8851-5772</span>
+        </a>
       </div>
 
       <div class="banner__info">
         <i data-lucide="mail" width="25px" height="20px"></i>
-        <span>c.ovictrustglobalconcept@gmail.com</span>
+        <a href="mailto:c.ovictrustglobalconcept@gmail.com" target="_blank">
+          <span>c.ovictrustglobalconcept@gmail.com</span>
+        </a>
       </div>
     </div>
 
